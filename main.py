@@ -51,5 +51,6 @@ for state in _AGENT_ACTIONS:
 train("program")
 
 print('training ended!!!')
+print(AI.memory)
 log_dict(AI.TextProcessor.memory)
 

@@ -70,20 +70,6 @@ trainingData["program"] = [
 	"what is x", "x is 13", 
 	"y is an even number list", 
 	"z is an array for images", 
-	"stephen is a blogger",
-	"chemical engineering is a course in unilag", 
-	"the time is 12 O' clock",
-	"what is the time", "12 O' clock",
-	"an os is a set of instructions", 
-	"a mice is a rodent that lives in dirty stuffy places",
-	"a computer is an electronic device", 
-	"a flash drive is an electronic device for storing data",
-	"what is a computer", "a computer is an electronic device",
-	"a saturated solution is a solution that contains more solute than it can dissolve",
-	"what is a super saturated solution", "a saturated solution is a solution that contains more solute than it can dissolve in the presence of undissolved solute",
-	"what is a saturated solution", "a saturated solution is a solution that contains more solute than it can dissolve in the presence of undissolved solute",
-	"a saturated solution is a solution that contains more solute than it can dissolve in the presence of undissolved solute",
-
 ]
 
 def train(topic, no_iterations=1):
@@ -124,5 +110,3 @@ def train(topic, no_iterations=1):
 
 			AI.process(data)
 			print()
-			if terminal_data.lower().startswith("what"):
-				input()
