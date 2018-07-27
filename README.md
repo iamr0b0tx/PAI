@@ -1,2 +1,2 @@
-# pai
-Artificially intelligent python programming language
+# adam
+General purpose Artificial Intelligent Agent

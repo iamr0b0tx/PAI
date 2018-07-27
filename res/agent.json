@@ -1,0 +1,1 @@
+{"states": ["SPEAKER"], "sensors":["eye", "ear", "terminal"], "actions":{"SPEAKER":["'hello'", "'world'", "'hi'"]}}
