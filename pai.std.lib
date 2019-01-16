@@ -1,0 +1,63 @@
+x is 2.5 ~ self.environment x 2.5
+cart is 'a' ~ self.environment cart 'a'
+var_name is 'gate man' ~ self.environment var_name 'gate man'
+some name is 3 ~ self.environment some name 3
+x = 2.5 ~ self.environment x 2.5
+cart = 'a' ~ self.environment cart 'a'
+var_name = 'gate man' ~ self.environment var_name 'gate man'
+some name = 3 ~ self.environment some name 3
+sum 'hello' and 'world' ~ 'hello' + 'world'
+sum x and 15 ~ x + 15
+sum 9 and var_name ~ 9 + var_name
+sum [1,2] and [5] ~ [1,2] + [5]
+sum 2 and 3 ~ 2 + 3
+sum 7 and 10.5 ~ 7 + 10.5
+sum 2.5 and 10 ~ 2.5 + 10
+add 'hello' and 'world' ~ 'hello' + 'world'
+add x and 15 ~ x + 15
+add 9 and var_name ~ 9 + var_name
+add [1,2] and [5] ~ [1,2] + [5]
+add 2 and 3 ~ 2 + 3
+add 7 and 10.5 ~ 7 + 10.5
+add 2.5 and 10 ~ 2.5 + 10
+product of 'hello' and 'world' ~ 'hello' * 'world'
+product of x and 15 ~ x * 15
+product of 9 and var_name ~ 9 * var_name
+product of [1,2] and [5] ~ [1,2] * [5]
+product of 2 and 3 ~ 2 * 3
+product of 7 and 10.5 ~ 7 * 10.5
+product of 2.5 and 10 ~ 2.5 * 10
+find product of 'hello' and 'world' ~ 'hello' * 'world'
+find product of x and 15 ~ x * 15
+find product of 9 and var_name ~ 9 * var_name
+find product of [1,2] and [5] ~ [1,2] * [5]
+find product of 2 and 3 ~ 2 * 3
+find product of 7 and 10.5 ~ 7 * 10.5
+find product of 2.5 and 10 ~ 2.5 * 10
+multiply 'hello' and 'world' ~ 'hello' * 'world'
+multiply x and 15 ~ x * 15
+multiply 9 and var_name ~ 9 * var_name
+multiply [1,2] and [5] ~ [1,2] * [5]
+multiply 2 and 3 ~ 2 * 3
+multiply 7 and 10.5 ~ 7 * 10.5
+multiply 2.5 and 10 ~ 2.5 * 10
+print x ~ print x
+print 3 ~ print 3
+print [1,2,3,4] ~ print [1,2,3,4]
+print 'hello world!' ~ print 'hello world!'
+print {1:2,3:4} ~ print {1:2,3:4}
+show x ~ print x
+show 3 ~ print 3
+show [1,2,3,4] ~ print [1,2,3,4]
+show 'hello world!' ~ print 'hello world!'
+show {1:2,3:4} ~ print {1:2,3:4}
+display x ~ print x
+display 3 ~ print 3
+display [1,2,3,4] ~ print [1,2,3,4]
+display 'hello world!' ~ print 'hello world!'
+display {1:2,3:4} ~ print {1:2,3:4}
+what is  x ~ print x
+what is  3 ~ print 3
+what is  [1,2,3,4] ~ print [1,2,3,4]
+what is  'hello world!' ~ print 'hello world!'
+what is  {1:2,3:4} ~ print {1:2,3:4}

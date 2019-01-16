@@ -1,1 +1,0 @@
-{"states": [], "sensors":["terminal"], "actions":{}, "object_references" : ["this", "that", "it", "i", "you"], "methods":{"add":["add", "append"], "sub":["subtract"], "[*IS*]":["is", "=", "=="]}, "datatypes":{"[~list~]": ["array", "set", "list", "dictionary"], "[~string~]":[], "[~number~]": ["float", "integer"], "[~state~]":["bool"]}}
